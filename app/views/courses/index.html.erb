@@ -1,0 +1,12 @@
+<h1>Courses (<%= @courses.count %>)</h1>
+
+
+<% for course in @courses %>
+  <article>
+    <h2><%= course.title %></h2>
+    <img src="<%= course.image.url(:thumb) %>" alt="<%= course.title %>">
+    <p><%= course.description %></p>
+
+  </article>
+  <hr>
+<% end %>

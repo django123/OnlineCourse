@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="OnlineCourse_development@localhost">
+  <database-model serializer="dbm" rdbms="POSTGRES" format-version="4.8">
+    <root id="1">
+      <ServerVersion>11.1</ServerVersion>
+    </root>
+    <database id="2" parent="1" name="OnlineCourse_development">
+      <ObjectId>93171</ObjectId>
+      <IntrospectionStateNumber>122</IntrospectionStateNumber>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </database>
+    <database id="3" parent="1" name="_mystore_development">
+      <ObjectId>66364</ObjectId>
+    </database>
+    <database id="4" parent="1" name="_mystore_test">
+      <ObjectId>66365</ObjectId>
+    </database>
+    <database id="5" parent="1" name="afrikeat_development">
+      <ObjectId>16385</ObjectId>
+    </database>
+    <database id="6" parent="1" name="aphricanity_development">
+      <ObjectId>41286</ObjectId>
+    </database>
+    <database id="7" parent="1" name="aphricanity_test">
+      <ObjectId>41287</ObjectId>
+    </database>
+    <database id="8" parent="1" name="apirest">
+      <ObjectId>57984</ObjectId>
+    </database>
+    <database id="9" parent="1" name="authentification">
+      <ObjectId>76820</ObjectId>
+    </database>
+    <database id="10" parent="1" name="banquesi">
+      <ObjectId>58038</ObjectId>
+    </database>
+    <database id="11" parent="1" name="carpa">
+      <ObjectId>84979</ObjectId>
+    </database>
+    <database id="12" parent="1" name="datatables">
+      <ObjectId>24865</ObjectId>
+    </database>
+    <database id="13" parent="1" name="magnetic_development">
+      <ObjectId>85070</ObjectId>
+    </database>
+    <database id="14" parent="1" name="meet2deal">
+      <ObjectId>68192</ObjectId>
+    </database>
+    <database id="15" parent="1" name="myapp">
+      <ObjectId>49713</ObjectId>
+    </database>
+    <database id="16" parent="1" name="portfolio-kenza">
+      <ObjectId>76770</ObjectId>
+    </database>
+    <database id="17" parent="1" name="postgres">
+      <ObjectId>13364</ObjectId>
+      <Comment>default administrative connection database</Comment>
+    </database>
+    <database id="18" parent="1" name="rails-devise_development">
+      <ObjectId>68290</ObjectId>
+    </database>
+    <database id="19" parent="1" name="ralph_projet_development">
+      <ObjectId>68070</ObjectId>
+    </database>
+    <database id="20" parent="1" name="springdata">
+      <ObjectId>58000</ObjectId>
+    </database>
+    <database id="21" parent="1" name="springdatajpa">
+      <ObjectId>67754</ObjectId>
+    </database>
+    <role id="22" parent="1" name="carpa">
+      <ObjectId>49630</ObjectId>
+      <SuperRole>1</SuperRole>
+      <Inherit>1</Inherit>
+      <CreateRole>1</CreateRole>
+      <CreateDb>1</CreateDb>
+      <CanLogin>1</CanLogin>
+      <Replication>1</Replication>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="23" parent="1" name="carpa2">
+      <ObjectId>49792</ObjectId>
+      <SuperRole>1</SuperRole>
+      <Inherit>1</Inherit>
+      <CreateRole>1</CreateRole>
+      <CreateDb>1</CreateDb>
+      <CanLogin>1</CanLogin>
+      <Replication>1</Replication>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="24" parent="1" name="djang91">
+      <ObjectId>10</ObjectId>
+      <SuperRole>1</SuperRole>
+      <Inherit>1</Inherit>
+      <CreateRole>1</CreateRole>
+      <CreateDb>1</CreateDb>
+      <CanLogin>1</CanLogin>
+      <Replication>1</Replication>
+      <ConnectionLimit>-1</ConnectionLimit>
+      <BypassRls>1</BypassRls>
+    </role>
+    <role id="25" parent="1" name="myapp">
+      <ObjectId>49712</ObjectId>
+      <SuperRole>1</SuperRole>
+      <Inherit>1</Inherit>
+      <CreateRole>1</CreateRole>
+      <CreateDb>1</CreateDb>
+      <CanLogin>1</CanLogin>
+      <Replication>1</Replication>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="26" parent="1" name="pg_execute_server_program">
+      <ObjectId>4571</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="27" parent="1" name="pg_monitor">
+      <ObjectId>3373</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="28" parent="1" name="pg_read_all_settings">
+      <ObjectId>3374</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="29" parent="1" name="pg_read_all_stats">
+      <ObjectId>3375</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="30" parent="1" name="pg_read_server_files">
+      <ObjectId>4569</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="31" parent="1" name="pg_signal_backend">
+      <ObjectId>4200</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="32" parent="1" name="pg_stat_scan_tables">
+      <ObjectId>3377</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="33" parent="1" name="pg_write_server_files">
+      <ObjectId>4570</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="34" parent="1" name="postgres">
+      <ObjectId>16384</ObjectId>
+      <SuperRole>1</SuperRole>
+      <Inherit>1</Inherit>
+      <CreateRole>1</CreateRole>
+      <CreateDb>1</CreateDb>
+      <CanLogin>1</CanLogin>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="35" parent="1" name="rails-devise">
+      <ObjectId>67855</ObjectId>
+      <Inherit>1</Inherit>
+      <CreateDb>1</CreateDb>
+      <CanLogin>1</CanLogin>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <schema id="36" parent="2" name="information_schema">
+      <ObjectId>13068</ObjectId>
+    </schema>
+    <schema id="37" parent="2" name="pg_catalog">
+      <ObjectId>11</ObjectId>
+      <Comment>system catalog schema</Comment>
+    </schema>
+    <schema id="38" parent="2" name="pg_temp_1">
+      <ObjectId>11804</ObjectId>
+    </schema>
+    <schema id="39" parent="2" name="pg_toast">
+      <ObjectId>99</ObjectId>
+      <Comment>reserved schema for TOAST tables</Comment>
+    </schema>
+    <schema id="40" parent="2" name="pg_toast_temp_1">
+      <ObjectId>11805</ObjectId>
+    </schema>
+    <schema id="41" parent="2" name="public">
+      <ObjectId>2200</ObjectId>
+      <Comment>standard public schema</Comment>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <access-method id="42" parent="2" name="btree">
+      <ObjectId>403</ObjectId>
+      <Comment>b-tree index access method</Comment>
+      <Handler>pg_catalog.bthandler</Handler>
+      <HandlerId>330</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="43" parent="2" name="hash">
+      <ObjectId>405</ObjectId>
+      <Comment>hash index access method</Comment>
+      <Handler>pg_catalog.hashhandler</Handler>
+      <HandlerId>331</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="44" parent="2" name="gist">
+      <ObjectId>783</ObjectId>
+      <Comment>GiST index access method</Comment>
+      <Handler>pg_catalog.gisthandler</Handler>
+      <HandlerId>332</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="45" parent="2" name="gin">
+      <ObjectId>2742</ObjectId>
+      <Comment>GIN index access method</Comment>
+      <Handler>pg_catalog.ginhandler</Handler>
+      <HandlerId>333</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="46" parent="2" name="spgist">
+      <ObjectId>4000</ObjectId>
+      <Comment>SP-GiST index access method</Comment>
+      <Handler>pg_catalog.spghandler</Handler>
+      <HandlerId>334</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="47" parent="2" name="brin">
+      <ObjectId>3580</ObjectId>
+      <Comment>block range index (BRIN) access method</Comment>
+      <Handler>pg_catalog.brinhandler</Handler>
+      <HandlerId>335</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <sequence id="48" parent="41" name="courses_id_seq">
+      <ObjectId>93188</ObjectId>
+      <StateNumber>7895</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>1</CacheSize>
+      <DataType>bigint</DataType>
+    </sequence>
+    <table id="49" parent="41" name="ar_internal_metadata">
+      <ObjectId>93180</ObjectId>
+      <StateNumber>7894</StateNumber>
+    </table>
+    <table id="50" parent="41" name="courses">
+      <ObjectId>93190</ObjectId>
+      <StateNumber>7897</StateNumber>
+    </table>
+    <table id="51" parent="41" name="schema_migrations">
+      <ObjectId>93172</ObjectId>
+      <StateNumber>7893</StateNumber>
+    </table>
+  </database-model>
+</dataSource>
