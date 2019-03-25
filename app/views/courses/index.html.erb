@@ -1,12 +1,18 @@
-<h1>Courses (<%= @courses.count %>)</h1>
+<h1>Courses <%= @courses.count %> courses available </h1>
 
+<div class="row">
+  <% for course in @courses %>
+  <div class="col-sm-4 col-md-3">
+    <div class="thumbnail">
+      <%= image_tag course.image.url, alt: course.title %>
+      <div class="caption">
+        <h2><%= course.title %></h2>
+        <p><%= course.description %></p>
+        <p><a href="#" class="btn btn-primary" role="button">Take this course</a>
+        </p>
+      </div>
+    </div>
 
-<% for course in @courses %>
-  <article>
-    <h2><%= course.title %></h2>
-    <img src="<%= course.image.url(:thumb) %>" alt="<%= course.title %>">
-    <p><%= course.description %></p>
-
-  </article>
-  <hr>
-<% end %>
+  </div>
+  <% end %>
+</div>
