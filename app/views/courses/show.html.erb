@@ -1,0 +1,20 @@
+<article>
+  <h2><%=@courses.title%></h2>
+  <%= image_tag @courses.image.url(:medium), alt: @courses.title%><br>
+  <%=@courses.description%>
+  <hr>
+
+  <section>
+    <%if @courses.episodes.empty?%>
+      <p>
+        pas d'épisode
+      </p>
+    <%else%>
+      <% @courses.episodes.each do |episode| %>
+        <h3><%= episode.title  %></h3>
+        <h3><a href="<%= episode_path(@courses.slug, episode.slug) %>"><%= episode.position %><%= episode.title %></a></h3>
+        <%=episode.description%>
+      <%end%>
+    <%end%>
+  </section>
+</article>

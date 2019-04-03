@@ -237,17 +237,39 @@
       <CacheSize>1</CacheSize>
       <DataType>bigint</DataType>
     </sequence>
-    <table id="49" parent="41" name="ar_internal_metadata">
+    <sequence id="49" parent="41" name="episodes_id_seq">
+      <ObjectId>93199</ObjectId>
+      <StateNumber>7915</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>1</CacheSize>
+      <DataType>bigint</DataType>
+    </sequence>
+    <sequence id="50" parent="41" name="users_id_seq">
+      <ObjectId>93234</ObjectId>
+      <StateNumber>7937</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>1</CacheSize>
+      <DataType>bigint</DataType>
+    </sequence>
+    <table id="51" parent="41" name="ar_internal_metadata">
       <ObjectId>93180</ObjectId>
       <StateNumber>7894</StateNumber>
     </table>
-    <table id="50" parent="41" name="courses">
+    <table id="52" parent="41" name="courses">
       <ObjectId>93190</ObjectId>
-      <StateNumber>7897</StateNumber>
+      <StateNumber>7915</StateNumber>
     </table>
-    <table id="51" parent="41" name="schema_migrations">
+    <table id="53" parent="41" name="episodes">
+      <ObjectId>93201</ObjectId>
+      <StateNumber>7923</StateNumber>
+    </table>
+    <table id="54" parent="41" name="schema_migrations">
       <ObjectId>93172</ObjectId>
       <StateNumber>7893</StateNumber>
+    </table>
+    <table id="55" parent="41" name="users">
+      <ObjectId>93236</ObjectId>
+      <StateNumber>7937</StateNumber>
     </table>
   </database-model>
 </dataSource>

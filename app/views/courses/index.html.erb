@@ -1,18 +1,21 @@
 <h1>Courses <%= @courses.count %> courses available </h1>
 
-<div class="row">
-  <% for course in @courses %>
-  <div class="col-sm-4 col-md-3">
-    <div class="thumbnail">
-      <%= image_tag course.image.url, alt: course.title %>
-      <div class="caption">
-        <h2><%= course.title %></h2>
-        <p><%= course.description %></p>
-        <p><a href="#" class="btn btn-primary" role="button">Take this course</a>
-        </p>
+<% @courses.in_groups_of(3, false).each do|group|   %>
+  <div class="row">
+    <% group.each do |course| %>
+    <div class="col-sm-6 col-md-4">
+      <div class="thumbnail">
+        <%= image_tag course.image.url, alt: course.title %>
+        <div class="caption">
+          <h2><%= course.title %></h2>
+          <p><%= truncate(course.description, length: 150)%></p>
+          <p><%=course.slug%></p>
+          <p><a href="<%= course_path(course.slug) %>" class="btn btn-primary" role="button">Take this course</a>
+          </p>
+        </div>
       </div>
-    </div>
 
-  </div>
-  <% end %>
+    </div>
+    <% end %>
 </div>
+<% end %>
